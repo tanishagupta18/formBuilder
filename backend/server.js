@@ -22,25 +22,6 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => console.log('DB is successfully connected'));
-
-// const testTour = new Tour({
-//   name: 'The Forest Hiker',
-//   price: 597,
-//   rating: 4.7,
-// });
-// testTour
-//   .save()
-//   .then((doc) => {
-//     console.log(doc);
-//   })
-//   .then((err) => console.log('Error', err));
-// mongoose
-//   .connect(process.env.DATABASE_LOCAL, {
-//     useNewUrlParser: true,
-//     useCreateIndex: true,
-//     useFindAndModify: true,
-//   })
-//   .then(() => console.log('DB is successfully connected'));
 const port = process.env.port || 3000;
 const server = app.listen(port, () => {
   console.log('Application is running on port 3000');
