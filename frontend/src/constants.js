@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:3000';
+export const BASE_URL = 'https://formbuilder-9qb6.onrender.com';
 
 // Define API endpoints relative to the BASE_URL
 export const FOLDERS_URL = `${BASE_URL}/api/v1/folder/`;
