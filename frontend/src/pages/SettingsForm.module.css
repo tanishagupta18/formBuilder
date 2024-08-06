@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1F1F23;
+  height: 100vh;
+  color: #fff;
+}
+
+.title {
+  font-size: 24px;
+  /* margin-bottom: 20px; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* background-color: #2c2c2c; */
+  border-radius: 12px;
+  border: 1px solid #D0D0D0;
+  padding: 7px 12px;
+}
+
+.icon {
+  color: #aaa;
+  margin-right: 10px;
+  cursor: pointer; /* Allow click on eye icon */
+  font-size: 20px;
+}
+
+.input {
+  width: 100%;
+  /* padding: 10px 5px; */
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  outline: none;
+  flex-grow: 1;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+.updateButton {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #1A5FFF;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.updateButton:hover {
+  background-color: #0056b3;
+}
+
+.logoutButton {
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.1rem;
+    width: 100%;
+    /* padding: 22px; */
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #CF3636;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10rem;
+    text-align: left;
+    transition: color 0.3s;
+}
+
+.logoutButton:hover {
+  color: #ff1a1a;
+}

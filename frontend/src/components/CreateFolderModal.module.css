@@ -1,0 +1,71 @@
+/* CreateFolderModal.module.css */
+
+.modal {
+    background-color: #191a1f;
+    border-radius: 8px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .title {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+  }
+  
+  .input {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #303030;
+    background-color: #2c2c2e;
+    color: #fff;
+    font-size: 14px;
+
+  }
+  
+  .error {
+    color: #ff4d4d; /* Red color for errors */
+    font-size: 12px; /* Smaller font for error */
+    margin-bottom: 10px; /* Spacing below error message */
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttonDone {
+    background-color: transparent;
+    color: #4B83FF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .buttonDone:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttonCancel {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .buttonCancel:hover {
+    color: #aaa;
+  }
+  

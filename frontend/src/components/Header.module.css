@@ -1,0 +1,64 @@
+.menuContainer {
+  position: relative;
+  display: inline-block;
+  background-color: #2d2d2d; 
+  align-self: center;
+}
+
+.menuButton {
+  background-color: #2d2d2d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  /* width: 250px; */
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #444;
+}
+
+
+.arrow {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.menuList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333; /* Dark dropdown background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+  /* margin-top: 5px; */
+  width: 100%;
+  z-index: 1;
+}
+
+.menuItem {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  background-color: #333;
+  border: 1px solid #3D3D3F;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menuItem:hover {
+  background-color: #444;
+}
+
+.logout {
+  color: #ffa500; /* Orange color for "Log Out" */
+}
+
+.logout:hover {
+  background-color: #555;
+}

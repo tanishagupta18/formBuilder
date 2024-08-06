@@ -1,0 +1,14 @@
+.message{
+    background-color: #27272A;
+    border: 1px solid #3D3D3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 5rem;
+    z-index: 1;
+    right: 10em;
+
+}

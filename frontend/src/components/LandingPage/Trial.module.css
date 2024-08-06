@@ -1,0 +1,102 @@
+.trial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: var(--space-32);
+    position: relative;
+    background-image: linear-gradient(to bottom, var(--colors-gray-900), var(--colors-gray-800));
+    height: 100vh;
+}
+
+.container{
+ 
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: var(--space-6);
+        padding-inline-end: var(--chakra-space-8);
+        max-width: 48rem;
+        text-align: center;
+    }
+        /* margin-bottom: var(--space-20); */
+        
+
+
+
+.heading{
+    font-family: var(--fonts-heading);
+    font-size: var(--fontSizes-4xl);
+    line-height: 1.2;
+    font-weight: var(--fontWeights-extrabold);
+    letter-spacing: var(--letterSpacings-tight);
+    padding-top: var(--chakra-space-20);
+        padding-bottom: var(--chakra-space-20);
+}
+
+.btn{
+    display: inline-flex;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    line-height: 1.2;
+    border-radius: var(--radii-md);
+    font-weight: var(--fontWeights-semibold);
+    transition-property: var(--transition-property-common);
+    transition-duration: var(--transition-duration-normal);
+    height: 4rem;
+    min-width: var(--sizes-12);
+    font-size: var(--fontSizes-lg);
+    -webkit-padding-start: var(--space-6);
+    padding-inline-start: var(--space-6);
+    -webkit-padding-end: var(--space-6);
+    padding-inline-end: var(--space-6);
+    background: var(--colors-blue-400);
+    color: var(--colors-white);
+    box-shadow: inset 
+}
+
+.link{
+    color: var(--colors-white);
+}
+.leftImage{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+
+.rightImage{
+    position: absolute;
+    right: -10px;
+}
+
+.para{
+    color: var(--colors-gray-400);
+}

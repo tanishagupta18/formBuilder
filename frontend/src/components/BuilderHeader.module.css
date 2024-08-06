@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #2c2c2c;
+    border-bottom: 1px solid #444;
+  }
+  
+  .formNameInput {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .headerButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .headerButton {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .shareButton {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .saveButton {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .active{
+    background: var(--colors-transparent);
+    border: 1px solid currentcolor;
+    color: var(--colors-blue-200);
+    font-weight: var(--fontWeights-semibold);
+  }
+  .shareButton:disabled {
+  background-color: #848890; /* Background color for disabled buttons */
+  color: #fff; /* Text color for disabled buttons */
+  cursor: not-allowed; /* Cursor style for disabled buttons */
+  border: 1px solid #848890; /* Optional: border color for disabled buttons */
+}
+.headerButton:disabled{
+    cursor: not-allowed;
+}
+.closeButton{
+    color: #F55050;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.errorInput {
+    border: 3px solid #522224;
+    /* background-color: #ffe6e6; */
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    display: block;
+  }
+  

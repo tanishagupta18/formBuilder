@@ -1,0 +1,63 @@
+
+  .button {
+    appearance: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    line-height: 1.2;
+    border-radius: 8px;
+    font-weight: 600;
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.2s;
+    background-color: #1A5FFF;
+    height: 270px;
+    min-width: 40px;
+    font-size: 16px;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    color: #fff;
+    white-space: normal;
+    opacity: 1;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 225px;
+  }
+  
+
+  
+
+.button:hover {
+  background-color: #3182ce; /* Darker shade on hover */
+}
+
+.button:active {
+  background-color: #2b6cb0; /* Even darker shade for active state */
+}
+
+
+
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  font-size: 50px; /* Adjust size as needed */
+  margin-bottom: 10px; /* Space between icon and text */
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 10rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}

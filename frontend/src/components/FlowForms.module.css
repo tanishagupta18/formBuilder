@@ -1,0 +1,12 @@
+.formContainer{
+    display: flex;
+    gap:10px;
+}
+
+.formList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1rem;
+    padding: 0px;
+}

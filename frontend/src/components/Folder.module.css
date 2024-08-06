@@ -1,0 +1,23 @@
+/* src/styles/Folder.module.css */
+.folder {
+    background-color: #3a3a3a;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:4px;
+  }
+  
+  .folder:hover {
+    background-color: #4a4a4a;
+  }
+  
+  .active{
+    border-radius: var(--radii-md);
+    box-shadow: rgb(26, 95, 255) 0px 0px 0px 4px;
+  }

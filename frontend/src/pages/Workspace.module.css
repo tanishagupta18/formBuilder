@@ -1,0 +1,46 @@
+/* src/styles/Workspace.module.css */
+.workspace {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 100vh;
+  }
+  body{
+    background-color: #18181b;
+  }
+  .content {
+    /* display: flex;
+    align-items: self-start;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 2.5rem 7.5rem;
+    width: 100%; */
+    display: flex;
+    /* -webkit-box-pack: center; */
+    justify-content: center;
+    width: 100%;
+    flex: 1 1 0%;
+
+  }
+  .stack{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 1000px;
+    padding-top: 1rem;
+  }
+  .folders{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+  }
+  hr {
+    border: none; /* Remove any default styling */
+    border-top: 1px solid #fff; /* Ensure the border is white */
+    height: 0; /* Make sure only the border is visible */
+    opacity: 0.2;
+}
+  

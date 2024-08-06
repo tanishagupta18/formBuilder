@@ -1,0 +1,125 @@
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    max-width: 800px; /* Increased max-width for desktop view */
+    height: 90vh; /* Adjust height to be more prominent on screen */
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .messageContainer {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 0 10px; /* Padding for better text alignment */
+  }
+  
+  .messageWrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .messageWrapperUser {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .messageBubble {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 80%;
+  }
+  
+  .messageBubbleUser {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 80%;
+  }
+  
+  .userIcon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .messageText {
+    display: inline-block;
+    word-wrap: break-word;
+  }
+  
+  .messageTextUser {
+    word-wrap: break-word;
+    text-align: right;
+  }
+  
+  .chatImage {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+/*   
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 10px;
+    outline: none;
+  }
+   */
+  /* button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: #0084ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background-color: #006bb3;
+  } */
+  
+  @media (max-width: 768px) {
+    .messageBubble,
+    .messageBubbleUser {
+      max-width: 100%;
+    }
+  
+    .inputContainer {
+      flex-direction: column;
+    }
+  
+    button {
+      margin-top: 10px;
+    }
+  }
+  
