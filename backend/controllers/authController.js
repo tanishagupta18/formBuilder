@@ -19,6 +19,7 @@ const createSendToken = (user, statusCode, req, res) => {
     ),
     // secure: true,
     httpOnly: true,
+    sameSite:'none',
   };
   if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
   // if (req.secure || req.headers['x-forwarded-proto'] === 'https')
