@@ -17,7 +17,7 @@ const MainContent = ({errors}) => {
     
     setFormContent(prevContent =>
       prevContent.map(item =>
-        item.id || item._id === uid ? { ...item, placeholder: value } : item
+        item.id === uid || item._id === uid ? { ...item, placeholder: value } : item
       )
     );
   };
