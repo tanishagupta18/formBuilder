@@ -6,12 +6,12 @@ const router = express.Router();
 router.use(authController.protect);
 router
   .route('/')
-  .get(folderController.getAllFolder)
+  .get(folderController.setUserIds,folderController.getAllFolder)
   .post(
     folderController.setUserIds,
     folderController.createFolder)
   ;
   router
   // .route('/:id').patch(folderController.updateFolder)
-  .delete(folderController.deleteFolder);
+  .route('/:id').delete(folderController.deleteFolder);
 module.exports = router;
