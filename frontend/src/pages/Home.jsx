@@ -45,14 +45,14 @@ const Home = () => {
                 Build advanced chatbots visually
               </h1>
               <p className={styles.hero_para}>
-                Typebot gives you powerful blocks to create unique chat
+                Formbot gives you powerful blocks to create unique chat
                 experiences. Embed them anywhere on your web/mobile apps and
                 start collecting results like magic.
               </p>
               <div className={styles.hero_btn_div}>
                 <a
                   className={styles.hero_btn}
-                  href="https://app.typebot.io/register"
+                  href="/register"
                 >
                   Create a typebot for free
                 </a>
